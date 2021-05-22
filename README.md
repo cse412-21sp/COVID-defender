@@ -2,11 +2,17 @@
 
 ## Team Members
 
-Place your team member names here.
+Zipei Zhang, Richard Zhu, Ronen Huang, Felicia Poynter, Steven Hu
 
 ### Contribution Statements
 
-Add individual contribution statements here.
+As the COVID-defenders, we are dedicated to showing the changes in the fields that are influenced by COVID-19 with the visualizations. 
+Zipei --- Population
+Ronen --- Transportation
+Richard --- Transportation
+Steven --- Vaccination
+Felicia --- Education
+
 
 ## Project Proposal Abstract
 
