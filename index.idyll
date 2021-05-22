@@ -20,6 +20,8 @@ With a vaccine now made available for COVID-19, the purpose of this project is t
 
 ### Vaccination
 
+[TableauEmbed link:"https://public.tableau.com/views/TotalCOVID-19VaccinationsPerCountry/Sheet1?:language=en&:display_count=y&:origin=viz_share_link?" width:"100%" height:"400"/]
+
 ### Embedding Visualizations
 
 We can easily embed images inline by including a short code snippet referencing an image file: `![example](./static/images/banner.png)`
