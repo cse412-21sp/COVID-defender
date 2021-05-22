@@ -14,6 +14,15 @@
 
 With a vaccine now made available for COVID-19, the purpose of this project is to help assess how people are transitioning to a in person environment and if social distancing will have long lasting effects on society.  To do this, we will be creating visualizations based around three topics that we believe are essential to daily life in a post-pandemic world, which are education, transportation, and herd immunity through vaccination.  
 
+### Population
+[TableauEmbed link:"https://public.tableau.com/views/Book2_16216534763910/Sheet1?:language=en&:retry=yes&:display_count=y&:origin=viz_share_link" width:"100%" height:"400"/]
+
+[TableauEmbed link:"https://public.tableau.com/views/Book2_16216534763910/Sheet2?:language=en&:display_count=y&:origin=viz_share_link" width:"100%" height:"400"/]
+
+For the visualization showing here, we are using the data from New York Times to view the bar chart of quantities difference in the number of cases and deaths through time. Its idea is to show the viewers about the actual quantity of people who get infected at a specific time, the trend of the numbers, and the ratio of deaths to the infected. The chart can show the numbers when the audience hovers their mouse on a wanted date. For the next update, I believe more information can be added since there is still space for the viewers to observe more. Or we can use the linear chart to make the trend more observable.
+
+ 
+
 ### Education
 [TableauEmbed link:"https://public.tableau.com/views/Book_16216477449480/ElementaryIn-PersonAttendenceMap?:language=en&:display_count=y&:origin=viz_share_link" width:"100%" height:"400"/]
 ### Transportation
