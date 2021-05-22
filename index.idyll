@@ -29,7 +29,7 @@ Map of in-person attendence of high school students.
 
 ### Transportation
 
-[TableauEmbed link: "https://public.tableau.com/views/final_prelim_vis_v2/Sheet1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link" width:"200%" height:"800"/]
+[TableauEmbed link: "https://public.tableau.com/views/final_prelim_vis/Sheet1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link" width:"200%" height:"800"/]
 The question I desired to answer was “What are the daily trends of people staying at home/not staying at home in the state of Washington around the time of the COVID-19 pandemic?”. 
 The data provided by the Bureau of Transportation Statistics and is filtered on state postal code WA and level state. Staying at Home defined to be making no trips that end up more 
 than one mile away from home. Not Staying at Home defined to be making at least one trip that end up more than one mile away from home. I decided to use a line graph to show daily 
