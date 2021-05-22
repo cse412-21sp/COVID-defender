@@ -15,10 +15,18 @@
 With a vaccine now made available for COVID-19, the purpose of this project is to help assess how people are transitioning to a in person environment and if social distancing will have long lasting effects on society.  To do this, we will be creating visualizations based around three topics that we believe are essential to daily life in a post-pandemic world, which are education, transportation, and herd immunity through vaccination.  
 
 ### Education
+Map that displays % of in-person attendence in each school district. 
+Data over time can be viewed by using the interactive playmode located at the right of the map. 
+Hovering over a section will display school district name, % in-person attendence, and number of students enrolled in the school district.
+[TableauEmbed link:"https://public.tableau.com/views/Book_16216477449480/In-PersonAttendenceMap?:language=en&:display_count=y&:origin=viz_share_link" width:"100%" height:"400"/]
+Map of in-person attendence of all primary education students.
 [TableauEmbed link:"https://public.tableau.com/views/Book_16216477449480/ElementaryIn-PersonAttendenceMap?:language=en&:display_count=y&:origin=viz_share_link" width:"100%" height:"400"/]
+Map of in-person attendence of elementary students.
+[TableauEmbed link:"https://public.tableau.com/views/Book_16216477449480/MiddleSchoolIn-PersonAttendenceMap?:language=en&:display_count=y&:origin=viz_share_link" width:"100%" height:"400"/]
+Map of in-person attendence of middle school students.
+[TableauEmbed link:"https://public.tableau.com/views/Book_16216477449480/HighSchoolIn-PersonAttendenceMap?:language=en&:display_count=y&:origin=viz_share_link" width:"100%" height:"400"/]
+Map of in-person attendence of high school students.
 ### Transportation
-
-[TableauEmbed link: "https://public.tableau.com/views/final_prelim_vis/Sheet1?:language=en&:retry=yes&:display_count=y&publish=yes&:origin=viz_share_link" width:"100%" height:"400"/]
 
 ### Vaccination
 
