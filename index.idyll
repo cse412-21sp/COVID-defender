@@ -11,6 +11,9 @@
   background:"#33333f"
   color:"#ffffff"
    /]
+   
+With a vaccine now made available for COVID-19, the purpose of this project is to help assess how people are transitioning to a in person environment and if social distancing will have long lasting effects on society. To do this, we will be creating visualizations based around three topics that we believe are essential to daily life in a post-pandemic world, which are education, transportation, and herd immunity through vaccination.
+
 ### Population
 For the visualization showing here, we are using the data from New York Times to view the bar chart of quantities difference in the number of cases and deaths through time. Its idea is to show the viewers about the actual quantity of people who get infected at a specific time, the trend of the numbers, and the ratio of deaths to the infected. The chart can show the numbers when the audience hovers their mouse on a wanted date. For the next update, I believe more information can be added since there is still space for the viewers to observe more. Or we can use the linear chart to make the trend more observable. 
 
@@ -18,7 +21,7 @@ For the visualization showing here, we are using the data from New York Times to
 Trend of the number
 [TableauEmbed link:"https://public.tableau.com/views/Book2_16216534763910/Sheet2?:language=en&:display_count=y&:origin=viz_share_link" width:"100%" height:"400"/]
 
-With a vaccine now made available for COVID-19, the purpose of this project is to help assess how people are transitioning to a in person environment and if social distancing will have long lasting effects on society.  To do this, we will be creating visualizations based around three topics that we believe are essential to daily life in a post-pandemic world, which are education, transportation, and herd immunity through vaccination.  
+By Zipei Zhang 
 
 ### Education
 Map that displays % of in-person attendence in each school district. 
@@ -33,6 +36,8 @@ Map of in-person attendence of middle school students.
 [TableauEmbed link:"https://public.tableau.com/views/Book_16216477449480/HighSchoolIn-PersonAttendenceMap?:language=en&:display_count=y&:origin=viz_share_link" width:"100%" height:"400"/]
 Map of in-person attendence of high school students.
 
+By Felicia Poyner
+
 ### Transportation
 
 [TableauEmbed link: "https://public.tableau.com/views/final_prelim_vis/Sheet1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link" width:"200%" height:"800"/]
@@ -42,9 +47,23 @@ than one mile away from home. Not Staying at Home defined to be making at least 
 trends and use different colors for the lines to distinguish between staying at home and not staying at home. The plan for future iterations is to obtain sufficient transportation 
 data after the COVID-19 pandemic ends. This would help contextualize the permanent effects of the COVID-19 pandemic on transportation in the state of Washington.
 
+By Ronen Huang
+
+[ObservableEmbed link:"https://observablehq.com/embed/ac94c83ea8dcf067?cells=plot6%2Cplot3%2Cplot4%2Cplot5" width:"900" height:"600"/]
+
+By Richard Zhu
+
 ### Vaccination
 
 [TableauEmbed link:"https://public.tableau.com/views/TotalCOVID-19VaccinationsPerCountry/Sheet1?:language=en&:display_count=y&:origin=viz_share_link?" width:"100%" height:"400"/]
+
+In a post-pandemic world, everyone must be vaccinated for day to day conditions to return to normal.  
+This visualization aims to give a sense of when this time may occur based upon the rate of vaccine administration against COVID-19.  
+The visualization uses data from Our World in Data which keeps track of daily vaccinations for each country.  Using the slider, the user can adjust the dates to see how many vaccines have been administered by each country since December 12, 2020.
+Some improvements to this design would be to animate something similar in D3 to give the viewer a better sense of change in color, as the slider is a bit clumsy and Tableau loads very slowly.
+The calculation for color could also be changed so that rather than changing color based solely upon vaccinations, it could be percentage based such that it represents the portion of the total population for each country that has been vaccinated.
+
+By Steven Hu
 
 ### Embedding Visualizations
 
