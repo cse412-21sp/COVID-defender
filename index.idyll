@@ -62,15 +62,28 @@ By Richard Zhu
 
 ### Vaccination
 
-[TableauEmbed link:"https://public.tableau.com/views/TotalCOVID-19VaccinationsPerCountry/Sheet1?:language=en&:display_count=y&:origin=viz_share_link?" width:"100%" height:"400"/]
+[Scroller]
 
-In a post-pandemic world, everyone must be vaccinated for day to day conditions to return to normal.  
-This visualization aims to give a sense of when this time may occur based upon the rate of vaccine administration against COVID-19.  
-The visualization uses data from Our World in Data which keeps track of daily vaccinations for each country.  Using the slider, the user can adjust the dates to see how many vaccines have been administered by each country since December 12, 2020.
-Some improvements to this design would be to animate something similar in D3 to give the viewer a better sense of change in color, as the slider is a bit clumsy and Tableau loads very slowly.
-The calculation for color could also be changed so that rather than changing color based solely upon vaccinations, it could be percentage based such that it represents the portion of the total population for each country that has been vaccinated.
+  [Graphic]
+    [TableauEmbed link:"https://public.tableau.com/views/TotalCOVID-19VaccinationsPerCountry/Sheet1?:language=en&:display_count=y&:origin=viz_share_link?" width:"100%" height:"800"/]
+  [/Graphic]
 
-By Steven Hu
+  [Step]
+    In a post-pandemic world, everyone must be vaccinated for day to day conditions to return to normal.  
+  [/Step]
+
+  [Step]
+	This visualization aims to give a sense of when this time may occur based upon the rate of vaccine administration against COVID-19.  
+  [/Step]
+
+  [Step]
+    The visualization uses data from Our World in Data which keeps track of daily vaccinations for each country.  Using the slider, the user can adjust the dates to see how many vaccines have been administered by each country since December 12, 2020.
+  [/Step]
+
+[/Scroller]
+[FullWidth]
+    [TableauEmbed link:"https://public.tableau.com/views/TotalCOVID-19VaccinationsPerCountry/Sheet1?:language=en&:display_count=y&:origin=viz_share_link?" width:"100%" height:"600"/ ]
+[/FullWidth]
 
 ### Data Used
 
