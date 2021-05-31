@@ -12,11 +12,7 @@
   margin-bottom: 0
    /]
 
-[FullWidth]
-[div style:`{backgroundColor: '#003D74', position: 'center'}`]
-[div className: 'idyll-text-container' style:`{backgroundColor: '#003D74', color: "#ebebeb"}`]
 
-[br /]
 
 ### Introduction
 
