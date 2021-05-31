@@ -2,16 +2,24 @@
 
 [Header
   fullWidth:true
-  title:"CSE412 Final Project Draft"
+  title:"IMPACT from COVID-19"
   subtitle:'"Covid Defenders"'
   author:"Zipei Zhang, Richard Zhu, Ronen Huang, Felicia Poynter, Steven Hu"
   authorLink: "
   https://courses.cs.washington.edu/courses/cse412/21sp/index.html"
-  date:"Apr 21, 2021"
-  background:"#33333f"
-  color:"#ffffff"
+  background:"#F8C6B5"
+  color:"#003D74"
+  margin-bottom: 0
    /]
-   
+
+[FullWidth]
+[div style:`{backgroundColor: '#003D74', position: 'center'}`]
+[div className: 'idyll-text-container' style:`{backgroundColor: '#003D74', color: "#ebebeb"}`]
+
+[br /]
+
+### Introduction
+
 With a vaccine now made available for COVID-19, the purpose of this project is to help assess how people are transitioning to a in person environment and if social distancing will have long lasting effects on society. To do this, we will be creating visualizations based around three topics that we believe are essential to daily life in a post-pandemic world, which are education, transportation, and herd immunity through vaccination.
 
 ### Population
