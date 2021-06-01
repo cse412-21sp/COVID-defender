@@ -1,89 +1,237 @@
-[meta title:"CSE412 Final Project Draft" description:"CSE412 Final Projects Prototype v1 (Spring 2021)" /]
+[meta title:"CSE412 Final Project" description:"CSE412 Final Projects Prototype v1 (Spring 2021)" /]
 
 [Header
   fullWidth:true
-  title:"IMPACT from COVID-19"
-  subtitle:'"Covid Defenders"'
+  title:"Impact of the COVID-19 Vaccine"
   author:"Zipei Zhang, Richard Zhu, Ronen Huang, Felicia Poynter, Steven Hu"
   authorLink: "
   https://courses.cs.washington.edu/courses/cse412/21sp/index.html"
-  background:"#F8C6B5"
-  color:"#003D74"
+  background:"black"
+  color:"white"
   margin-bottom: 0
-   /]
+ /]
+   
 
+[FullWidth]
+[div className:'intro']
+###With a vaccine now made available for COVID-19, the purpose of this project is to help assess how people are transitioning to a in person environment and if social distancing will have long lasting effects on society. To do this, we will be creating visualizations based around three topics that we believe are essential to daily life in a post-pandemic world, which are education, transportation, and herd immunity through vaccination.
+[/div]
+[/FullWidth]
 
+[Header
+  fullWidth:true
+  title:"Population"
+  background:"black"
+  color:"white"
+  margin-bottom: 0
+ /]
 
-### Introduction
-
-With a vaccine now made available for COVID-19, the purpose of this project is to help assess how people are transitioning to a in person environment and if social distancing will have long lasting effects on society. To do this, we will be creating visualizations based around three topics that we believe are essential to daily life in a post-pandemic world, which are education, transportation, and herd immunity through vaccination.
-
-### Population
-For the visualization showing here, we are using the data from New York Times to view the bar chart of quantities difference in the number of cases and deaths through time. Its idea is to show the viewers about the actual quantity of people who get infected at a specific time, the trend of the numbers, and the ratio of deaths to the infected. The chart can show the numbers when the audience hovers their mouse on a wanted date. For the next update, I believe more information can be added since there is still space for the viewers to observe more. Or we can use the linear chart to make the trend more observable. 
-
+[FullWidth]
+[div className:'contrast-light']
+###First, we need to get a general overview of  how COVID-19 has affected the population as a whole in the past year.  
 [TableauEmbed link:"https://public.tableau.com/views/Book2_16216534763910/Sheet1?:language=en&:retry=yes&:display_count=y&:origin=viz_share_link" width:"100%" height:"400"/]
-Trend of the number
+###Following initial rollout of the vaccine in December, we can see an obvious flattening of the curve in new cases, but what about COVID-19's lethality?
+###Next, we can see how the rate of cases is compares to the rate of deaths caused by COVID-19.
+[/div]
+[/FullWidth]
+
+[FullWidth]
+[div className:'contrast-light']
+
 [TableauEmbed link:"https://public.tableau.com/views/Book2_16216534763910/Sheet2?:language=en&:display_count=y&:origin=viz_share_link" width:"100%" height:"400"/]
+###Unsurpisingly, the rate of cases and deaths appears to be correlated, with a corrosponding decrease in cases and deaths in February this year.   
+###Let us see how this decrease in cases has affected school enrollment.
+[/div]
+[/FullWidth]
 
-By Zipei Zhang 
+[Header
+  fullWidth:true
+  title:"Education"
+  background:"black"
+  color:"white"
+  margin-bottom: 0
+ /]
 
-### Education
-Map that displays % of in-person attendence in each school district. 
-Data over time can be viewed by using the interactive playmode located at the right of the map. 
-Hovering over a section will display school district name, % in-person attendence, and number of students enrolled in the school district.
-[TableauEmbed link:"https://public.tableau.com/views/Book_16216477449480/In-PersonAttendenceMap?:language=en&:display_count=y&:origin=viz_share_link" width:"100%" height:"400"/]
-Map of in-person attendence of all primary education students.
-[TableauEmbed link:"https://public.tableau.com/views/Book_16216477449480/ElementaryIn-PersonAttendenceMap?:language=en&:display_count=y&:origin=viz_share_link" width:"100%" height:"400"/]
-Map of in-person attendence of elementary students.
-[TableauEmbed link:"https://public.tableau.com/views/Book_16216477449480/MiddleSchoolIn-PersonAttendenceMap?:language=en&:display_count=y&:origin=viz_share_link" width:"100%" height:"400"/]
-Map of in-person attendence of middle school students.
-[TableauEmbed link:"https://public.tableau.com/views/Book_16216477449480/HighSchoolIn-PersonAttendenceMap?:language=en&:display_count=y&:origin=viz_share_link" width:"100%" height:"400"/]
-Map of in-person attendence of high school students.
 
-By Felicia Poyner
 
-### Transportation
+[Scroller]
+[Graphic]
+[TableauEmbed link:"https://public.tableau.com/views/Book_16216477449480/In-PersonAttendenceComparison?:language=en-US&:display_count=n&:origin=viz_share_link" width:"100%" height:"800"/]
+[/Graphic]
 
-[TableauEmbed link: "https://public.tableau.com/views/final_prelim_vis/Sheet1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link" width:"200%" height:"800"/]
+[Step]
+When the first round of vaccines began to roll out in December 2020 for those at most risk to COVID, 
+it signaled the beginning of the end of mandated masks and remote-learning. Washington State's Governer
+Inslee announced school reopening plans to have every school offer at least partial in-person learning
+by April 2021. All schools shifted to offer at least a hybrid model mix of in-person and remote learning 
+for students at every school level in the following months, with many school districts exceeding expectations
+by having complete in-person attendence.
+[/Step]
 
-The question I desired to answer was “What are the daily trends of people staying at home/not staying at home in the state of Washington around the time of the COVID-19 pandemic?”. 
-The data provided by the Bureau of Transportation Statistics and is filtered on state postal code WA and level state. Staying at Home defined to be making no trips that end up more 
-than one mile away from home. Not Staying at Home defined to be making at least one trip that end up more than one mile away from home. I decided to use a line graph to show daily 
-trends and use different colors for the lines to distinguish between staying at home and not staying at home. The plan for future iterations is to obtain sufficient transportation 
-data after the COVID-19 pandemic ends. This would help contextualize the permanent effects of the COVID-19 pandemic on transportation in the state of Washington.
+[Step]
+The area chart shows the overall population of in-person attendence compared to enrollment at Elementary, Middle School, and High School levels for Washington State.
+Since initial plans were put into effect to shift learning back to in-person, there has been a gradual increase in population of in-person attendence across
+all school levels.
+[TableauEmbed link:"https://public.tableau.com/views/Book_16216477449480/AttendenceandEnrollmentOverTimeAcrossSchoolLevels?:language=en-US&:display_count=n&:origin=viz_share_link" width:"100%" height:"400"/]
+[/Step]
 
-By Ronen Huang
+[Step]
+All school levels experienced similar increase percentage to in-person attendence between the months of January to April. Elementary school level has the greatest
+percentage of in-person attendence both before and after initiating plans to shift more students to in-person learning. This is followed by middle schools, with in-person attendence
+at the high school level being the lowest. This trend is seen due to experienced educators determining that in-person learning is more crucial for students
+at the elementary level for their learning development.
+[TableauEmbed link:"https://public.tableau.com/views/Book_16216477449480/In-PersonAttendenceOverTimeAcrossSchoolLevels?:language=en-US&:display_count=n&:origin=viz_share_link" width:"100%" height:"400"/]
+[/Step]
 
-[ObservableEmbed link:"https://observablehq.com/embed/ac94c83ea8dcf067?cells=plot6%2Cplot3%2Cplot4%2Cplot5" width:"900" height:"600"/]
+[Step]
+The maps of Washington State's school district boundaries gives insights into each school district's shift towards in-person attendence. Direct comparisons in rate of in-person attendence
+between the months January and April can be seen by toggling between the data for the two dates.
+[/Step]
 
-This data shows how far people travel during COVID in miles. It tracks the frequency of trips based on the mile range. Trips are defined as movements that include a stay of longer than 10 minutes at an anonymized location away from home. In this visualization, we show the number of trips for short-distance (< 10 miles), medium-distance (10-100 miles), long-distance (>= 100 miles) trips. Then we also look closer to each case carefully. In the next stage, we might want to make comparisons between counties.
+[Step]
+Overall, there is greater in-person attendence in school districts located in Eastern Washington, compared to the West.
+[/Step]
 
-By Richard Zhu
+[/Scroller]
 
-### Vaccination
+[FullWidth]
+[div className:'map']
+[TableauEmbed link:"https://public.tableau.com/views/Book_16216477449480/In-PersonAttendenceComparison?:language=en-US&:display_count=n&:origin=viz_share_link" width:"100%" height:"800"/]
+[/div]
+[/FullWidth]
+
+[FullWidth]
+[div className:'map']
+[TableauEmbed link:"https://public.tableau.com/views/Book_16216477449480/In-PersonAttendenceatDifferrentSchoolLevels?:language=en-US&:display_count=n&:origin=viz_share_link" width:"100%" height:"600"/]
+[/div]
+[/FullWidth]
+
+[FullWidth]
+[div className:'map']
+###In May 2021, Washington State's Governer Inslee announced plans to have all schools completely reopen by Fall 2021 for the new school year.  
+###As more students travel to school due to in-person learning, one should expect transportation levels to return to normal.
+[/div]
+[/FullWidth]
+
+
+[Header
+  fullWidth:true
+  title:"Transportation"
+  background:"black"
+  color:"white"
+  margin-bottom: 0
+ /]
+
+
+[Scroller]
+[Graphic]
+[TableauEmbed link: "https://public.tableau.com/views/final_prelim_vis/Sheet1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link" width:"100%" height:"800"/]
+[/Graphic]
+[Step]
+We see from the line graph displaying the trends in people staying at home/not staying at home in Washington State that before COVID-19, the total population staying at home did not fluctate greatly day to day. 
+[/Step]
+[Step]
+However, we see that shortly after 2020, the trends changed drastically as when all schools closed the total population who stayed at home drastically increased in the following days. 
+[/Step]
+[Step]
+This can be explained by the lack of trips made to schools by students and parents since it was announced that schools were closed. 
+[/Step]
+[Step]
+Since those increases/decreases, the total population staying at home remained relatively constant daily until vaccinations became available. 
+[/Step]
+[Step]
+When vaccinations became available, the total population who did stay at home started to gradually decrease daily, as vaccinations meant that more people could go out safely with little chance of being infected with COVID-19. 
+[/Step]
+[Step]
+With the current trends, it appears more and more people are no longer fearing COVID-19 due to the vaccine.
+[/Step]
+[/Scroller]
+
+
+[FullWidth]
+[div className:'stepper']
+[Stepper currentStep:stepperIndex]
+
+[Step]
+[ObservableEmbed link:"https://observablehq.com/embed/d760f7f8e307d846?cells=all" width:"100%" height:"600"/]
+###This graph shows the overall distances traveled.  However, more insights can be gained by filtering down to ranges of distances.
+[/Step]
+
+[Step]
+[ObservableEmbed link:"https://observablehq.com/embed/d760f7f8e307d846?cells=short" width:"100%" height:"600"/]
+###Most trips are short-distance trips.  Short distance trips also appear to have the highest fluctations out of the other ranges. 
+[/Step]
+
+[Step]
+[ObservableEmbed link:"https://observablehq.com/embed/d760f7f8e307d846?cells=medium" width:"100%" height:"600"/]
+###The medium distance trips appear to have less fluctuations than short distance trips, but general upward and downard spikes are nearly identical for dates such as April 2020 and 2021.
+[/Step]
+
+[Step]
+[ObservableEmbed link:"https://observablehq.com/embed/d760f7f8e307d846?cells=long" width:"100%" height:"600"/]
+###This graph shows the longest distances traveled. Interestingly, the number of trips exceeding 250 miles and 500 miles have a very similar trend, which could show that long distance forms of travel have not been highly effected by COVID-19, and may not even change post-pandemic.
+[/Step]
+[StepperControl /]
+[/Stepper]
+[/FullWidth]
+[/div]
+
+[FullWidth]
+[div className:'contrast-light']
+###As the number of cases decrease, schools begin to open up, and less people stay at home, it is important to consider which places are the safest to travel.  
+[/div]
+[/FullWidth]
+
+
+
+[Header
+  fullWidth:true
+  title:"Vaccination"
+  background:"black"
+  color:"white"
+  margin-bottom: 0
+ /]
+ 
+[FullWidth]
+[div className:'contrast-light']
+###The following animated bar chart shows states in the US based upon the total percentage of the population vaccinated.
+[/div]
+[/FullWidth]
+
+[FullWidth]
+    [ObservableEmbed link:"https://observablehq.com/embed/@sjhu/us-vaccination-percentage-by-state-bar-chart-race?cells=viewof+replay%2Cchart" width:"100%" height:"600"/]
+[/FullWidth]
+
+[FullWidth]
+[div className:'contrast-light']
+###As you can see, an obvious winner in this "race" does not become clear until later - the Northern Mariana Islands led with an early start, but is overtaken by the Republic of Palau.  Furthermore, Alaska seemed to gain a promising lead, but fell the rankings around the beginning of May.  Later, it becomes clear the the Republic of Palau is the dominent winner, and thus is the safest place to travel as the pandemic comes to an end.  However, revealing such locations could be paradoxical, as one might expect an influx of travelers due to apparent safety, so it would not be surpising if the Republic of Palua loses the record for having 0 reported cases.
+[/div]
+[/FullWidth]
 
 [Scroller]
 
   [Graphic]
-    [TableauEmbed link:"https://public.tableau.com/views/TotalCOVID-19VaccinationsPerCountry/Sheet1?:language=en&:display_count=y&:origin=viz_share_link?" width:"100%" height:"800"/]
+    [TableauEmbed link:"https://public.tableau.com/views/USPopulationVaccinated/PopulationVaccinatedUS?:language=en-US&:display_count=n&:origin=viz_share_link?" width:"100%" height:"800"/]
   [/Graphic]
 
   [Step]
-    In a post-pandemic world, everyone must be vaccinated for day to day conditions to return to normal.  
+    This final graph serves as a reminder that the rollout of the vaccine is still in its early stages.
+  [/Step]
+  
+  [Step]
+	Showing states with less than 50% of their population vaccinated in orange, and over 50% in blue, the number of states with a majority of the population vaccinated is extremely small.
+  [/Step]
+  [Step]
+	We still cannot rely on herd immunity to protect the young and elderly from COVID-19, so despite all the positive upward trends in the visualizations that you have seen today, the pandemic is far from over.
   [/Step]
 
   [Step]
-	This visualization aims to give a sense of when this time may occur based upon the rate of vaccine administration against COVID-19.  
-  [/Step]
-
-  [Step]
-    The visualization uses data from Our World in Data which keeps track of daily vaccinations for each country.  Using the slider, the user can adjust the dates to see how many vaccines have been administered by each country since December 12, 2020.
+	If anything, the upward trends in school enrollement and travel are concerning, so please remember to practice all health guidelines, stay home whenever possible, and to get vaccinated - otherwise, we may need to spend additional time learning remotely next school year...
   [/Step]
 
 [/Scroller]
-[FullWidth]
-    [TableauEmbed link:"https://public.tableau.com/views/TotalCOVID-19VaccinationsPerCountry/Sheet1?:language=en&:display_count=y&:origin=viz_share_link?" width:"100%" height:"600"/ ]
-[/FullWidth]
+
+
 
 ### Data Used
 
@@ -100,3 +248,7 @@ https://www.bts.gov/daily-travel
 https://data.bts.gov/Research-and-Statistics/Trips-by-Distance/w96p-f2qv
 
 https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
+
+
+
+
